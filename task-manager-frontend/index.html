@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><B>Task Manager</B></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Task Manager</h1>
+
+    <div class="section">
+      <h2>Create User</h2>
+      <div class="form-row">
+        <input id="name" placeholder="Name">
+        <input id="email" placeholder="Email">
+        <button onclick="createUser()">Create User</button>
+      </div>
+    </div>
+    
+
+    <div class="section">
+      <h2>Availabe Users</h2>
+      <div id="users" class="list"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

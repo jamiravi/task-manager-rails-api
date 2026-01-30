@@ -1,0 +1,154 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  color: #333;
+}
+
+/* Main container */
+.container {
+  background: #ffffff;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 14px;
+  padding: 30px 40px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Headings */
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #2d2d2d;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #444;
+}
+
+/* Section spacing */
+.section {
+  margin-bottom: 35px;
+}
+
+/* Form styling */
+.form-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+input {
+  flex: 1;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.15);
+}
+
+/* Buttons */
+button {
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Lists */
+.list {
+  margin-top: 15px;
+}
+
+.card {
+  background: #f7f8fc;
+  border-radius: 10px;
+  padding: 15px 18px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card strong {
+  font-size: 16px;
+}
+
+.card span {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Task status */
+.badge {
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.badge.pending {
+  background: #ffeaa7;
+  color: #8a6d00;
+}
+
+.badge.completed {
+  background: #55efc4;
+  color: #006644;
+}
+
+/* Empty state */
+.empty {
+  text-align: center;
+  color: #777;
+  padding: 20px;
+  font-size: 14px;
+}
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-edit {
+  background: #0984e3;
+}
+
+.btn-delete {
+  background: #d63031;
+}
+
+.btn-edit,
+.btn-delete {
+  padding: 8px 12px;
+  font-size: 13px;
+  border-radius: 6px;
+  color: white;
+}

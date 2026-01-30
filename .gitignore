@@ -1,0 +1,13 @@
+# Rails
+/backend/log/*
+/backend/tmp/*
+/backend/.bundle
+/backend/db/*.sqlite3
+/backend/db/*.sqlite3-journal
+
+# Frontend
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
